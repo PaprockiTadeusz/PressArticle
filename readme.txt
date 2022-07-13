@@ -22,7 +22,7 @@ Press article contains:
  - **Getting single article by its ID.**
  GET /articles/{id}
  
- - **Saveing new Article to database.**
+ - **Saving new Article to database.**
  POST /articles
    Creates a new press article. The request body should contain the following fields:  
    - content (publication title and publication content) 
@@ -37,6 +37,6 @@ Press article contains:
    - the name of the journal  
    - author of the article (name and surname)
  - **Partially update of article in the database.**
- - **Deleteing Article.**
+ - **Deleting Article.**
  
  
